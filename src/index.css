@@ -13,3 +13,40 @@ body{
 body{
   background-color: #111;
 }
+.nav{
+  background-color: rgb(58, 9, 17);
+  padding: 20px;
+}
+.strip{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  background-color: #222;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.card img{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+
+}
+.card button{
+  background-color: #fff;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+.card p{
+  margin: 10px 10px;
+}
